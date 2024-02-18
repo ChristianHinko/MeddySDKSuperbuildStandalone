@@ -1,0 +1,3 @@
+[submodule "MeddySDKSuperbuild"]
+	path = MeddySDKSuperbuild
+	url = https://github.com/ChristianHinko/MeddySDKSuperbuild.git
