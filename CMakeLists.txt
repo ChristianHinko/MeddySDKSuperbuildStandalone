@@ -25,6 +25,5 @@ ExternalProject_Add(Boost
 ExternalProject_Add(MeddySDKSuperbuild
   DEPENDS Boost
   SOURCE_DIR "${MeddySDKSuperbuildWithDependencies_SOURCE_DIR}/MeddySDKSuperbuild"
-  SOURCE_SUBDIR "MeddySDKSuperbuild"
   CMAKE_ARGS -DCMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE} -DCMAKE_INSTALL_PREFIX=${CMAKE_INSTALL_PREFIX} -DCMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}
   )
