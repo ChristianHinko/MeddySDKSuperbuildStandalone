@@ -1,1 +1,1 @@
-# MeddySDKSuperbuildWithDependencies
+# MeddySDKSuperbuildStandalone
